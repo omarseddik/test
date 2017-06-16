@@ -6,4 +6,7 @@ describe('add', function () {
     it('is a function', function () {
         console.assert(typeof add === 'function');
     });
+    it('is equal', function () {
+        console.assert( add(1,2) === 3);
+    });
 });
