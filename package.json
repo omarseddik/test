@@ -3,6 +3,6 @@
     "mocha": "^3.4.2"
   },
   "scripts": {
-	  "test": "mocha -R spec tests/*-spec.js"
+	  "test": "mocha -R spec *-spec.js"
 	}
 }
